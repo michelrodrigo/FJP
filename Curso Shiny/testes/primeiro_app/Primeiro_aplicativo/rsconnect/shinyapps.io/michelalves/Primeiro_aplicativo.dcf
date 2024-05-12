@@ -1,0 +1,14 @@
+name: Primeiro_aplicativo
+title:
+username:
+account: michelalves
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6820056
+bundleId: 6223340
+url: https://michelalves.shinyapps.io/Primeiro_aplicativo/
+when: 1661112846.64749
+lastSyncTime: 1661112846.64749
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|www/dados_curso1.xlsx

@@ -1,0 +1,14 @@
+name: testes_completo
+title: testes_completo
+username:
+account: michelalves
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6496327
+bundleId: 6011465
+url: https://michelalves.shinyapps.io/testes_completo/
+when: 1655321573.84019
+lastSyncTime: 1655321573.84019
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|codigos.R|exercicio6.R|IMRS2021 - BASE DEMOGRAFIA 2000 a 2020.xlsx|lista municipios FJP.xlsx

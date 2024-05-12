@@ -1,0 +1,14 @@
+name: Teste2
+title: Teste2
+username:
+account: michelalves
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6496256
+bundleId: 6011439
+url: https://michelalves.shinyapps.io/Teste2/
+when: 1655321114.25819
+lastSyncTime: 1655321114.25819
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|outors/global.R|outors/server.R|outors/ui.r|www/logo_fjp.png
