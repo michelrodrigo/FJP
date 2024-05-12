@@ -1,0 +1,5 @@
+nomes dos municípios com algumas inconsistências (acento, hífen)
+
+extensão rural ok
+
+área plantada com erros no arredondamento. Foram arredondados pro próximo número inteiro.

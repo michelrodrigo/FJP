@@ -1,0 +1,3 @@
+Se eles tem alguma diretriz ou norma que indica se os números são arredondados ou truncados.
+
+ 
