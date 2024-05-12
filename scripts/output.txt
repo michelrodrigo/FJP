@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1"><title>
+	Apresenta os códigos das dimensões e suas listas de opções
+</title><link id="Link1" rel="stylesheet" type="text/css" href="Content/Estilo.css" />
+<script type="text/javascript" language="JavaScript"> 
+<!--
+
+// Abre a janela para a lista de unidades territoriais
+function abreJanelaListaUnidadesTerritoriais(codTabl, codNivt, idioma) {
+    var w;
+    w = window.open("/LisUnitTabAPI.aspx?c=" + codTabl + "&n=" + codNivt + "&i=" + idioma, "LisUnitTabAPI", "scrollbars=yes,resizable=yes,width=450,height=490,left=428,top=1");
+    w.focus();
+}
+
+//-->
+</script>
+</head>
+
+<body>
+<form method="post" action="./desctabapi.aspx?c=1407" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7E148CA2" />
+
+    <p>
+    <span id="lblMensagem" class="mensagemErro"></span>
+    </p>
+             
+    <div id="pnlConteudo">
+	 
+    
+    <table>
+        <tr valign="top">
+            <td><span style="color:Red; font-weight:bold">/T/&nbsp;&nbsp;</span><span class="tituloTabelaDesc">Tabela:</span>&nbsp;&nbsp;</td>
+            <td class="semQuebra"><span id="lblNumeroTabela" class="tituloTabelaNro">1407</span>&nbsp;-&nbsp;</td>
+            <td><span id="lblNomeTabela" class="tituloTabelaDesc">Dados gerais das empresas comerciais por grandes regiões e unidades da federação de atuação das empresas e divisão de comércio e grupo de atividade</span></td>
+        </tr>
+    </table>
+   
+    <p>          
+    <span class="tituloLinha">Pesquisa:</span>&nbsp;&nbsp;<span id="lblNomePesquisa">Pesquisa Anual de Comércio</span>           
+    </p>
+    
+    <p>               
+    <span class="tituloLinha">Assunto:</span>&nbsp;&nbsp;<span id="lblNomeAssunto">Comércio</span>    
+    </p>           
+    
+    <p>                      
+    <span style="color:Red; font-weight:bold">/P/&nbsp;&nbsp;</span><span id="lblNomePeriodo" class="tituloLinha">Ano(13):</span>&nbsp;&nbsp;<span id="lblPeriodoDisponibilidade" style="color:Red;">2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019</span>     
+    </p>
+               
+    <p>             
+    <span style="color:Red; font-weight:bold">/V/&nbsp;&nbsp;</span><span id="lblVariaveis" class="tituloLinha">Variável(5):</span>
+    
+            <table id="tabPrincipal" cellspacing="2">
+                
+            <tr>
+                <td>
+                    <span id="lstVariaveis_lblIdVariavel_0" style="color:Red">368</span>&nbsp;&nbsp;<span id="lstVariaveis_lblNomeVariavel_0">Número de unidades locais com receita de revenda (Unidades) - casas decimais:  padrão = 0, máximo = 0</span>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <span id="lstVariaveis_lblIdVariavel_1" style="color:Red">312</span>&nbsp;&nbsp;<span id="lstVariaveis_lblNomeVariavel_1">Pessoal ocupado em 31/12 em empresas comerciais (Pessoas) - casas decimais:  padrão = 0, máximo = 0</span>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <span id="lstVariaveis_lblIdVariavel_2" style="color:Red">314</span>&nbsp;&nbsp;<span id="lstVariaveis_lblNomeVariavel_2">Gastos com salários, retiradas e outras remunerações em empresas comerciais (Mil Reais) - casas decimais:  padrão = 0, máximo = 0</span>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <span id="lstVariaveis_lblIdVariavel_3" style="color:Red">503</span>&nbsp;&nbsp;<span id="lstVariaveis_lblNomeVariavel_3">Margem de comercialização em empresas comerciais (Mil Reais) - casas decimais:  padrão = 0, máximo = 0</span>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <span id="lstVariaveis_lblIdVariavel_4" style="color:Red">866</span>&nbsp;&nbsp;<span id="lstVariaveis_lblNomeVariavel_4">Receita bruta de revenda de mercadorias (Mil Reais) - casas decimais:  padrão = 0, máximo = 0</span>
+                </td>
+            </tr>
+        
+            </table>
+        
+    <br />                                                                
+    
+            <table id ="tabPrincipal" cellspacing="2">
+                
+            <tr>
+                <td>
+                    <span style="color:Red; font-weight:bold">/C</span><span id="lstClassificacoes_lblIdClassificacao_0" style="color:Red; font-weight:bold">12354</span><span style="color:Red; font-weight:bold">/</span>
+                    &nbsp;<span id="lstClassificacoes_lblClassificacao_0" class="tituloLinha">Grandes regiões e unidades da federação de atuação das empresas</span><span id="lstClassificacoes_lblQuantidadeCategorias_0" class="tituloLinha">(33):</span>                   
+                    
+                            <table id="tabPrincipal" cellpadding="2">
+                                
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_0" style="color:Red">106802</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_0">Brasil</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_1" style="color:Red">106803</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_1">Região Norte</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_2" style="color:Red">106775</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_2">Rondônia</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_3" style="color:Red">106776</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_3">Acre</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_4" style="color:Red">106777</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_4">Amazonas</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_5" style="color:Red">106778</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_5">Roraima</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_6" style="color:Red">106779</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_6">Pará</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_7" style="color:Red">106780</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_7">Amapá</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_8" style="color:Red">106781</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_8">Tocantins</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_9" style="color:Red">106804</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_9">Região Nordeste</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_10" style="color:Red">106782</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_10">Maranhão</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_11" style="color:Red">106783</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_11">Piauí</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_12" style="color:Red">106784</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_12">Ceará</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_13" style="color:Red">106785</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_13">Rio Grande do Norte</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_14" style="color:Red">106786</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_14">Paraíba</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_15" style="color:Red">106787</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_15">Pernambuco</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_16" style="color:Red">106788</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_16">Alagoas</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_17" style="color:Red">106789</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_17">Sergipe</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_18" style="color:Red">106790</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_18">Bahia</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_19" style="color:Red">106805</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_19">Região Sudeste</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_20" style="color:Red">106791</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_20">Minas Gerais</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_21" style="color:Red">106792</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_21">Espírito Santo</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_22" style="color:Red">106793</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_22">Rio de Janeiro</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_23" style="color:Red">106794</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_23">São Paulo</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_24" style="color:Red">106806</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_24">Região Sul</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_25" style="color:Red">106795</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_25">Paraná</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_26" style="color:Red">106796</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_26">Santa Catarina</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_27" style="color:Red">106797</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_27">Rio Grande do Sul</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_28" style="color:Red">106807</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_28">Região Centro-Oeste</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_29" style="color:Red">106798</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_29">Mato Grosso do Sul</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_30" style="color:Red">106799</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_30">Mato Grosso</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_31" style="color:Red">106800</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_31">Goiás</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_0_lblIdCategoria_32" style="color:Red">106801</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_0_lblNomeCategoria_32">Distrito Federal</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            </table>
+                        
+                    <br />
+                    
+                    
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <span style="color:Red; font-weight:bold">/C</span><span id="lstClassificacoes_lblIdClassificacao_1" style="color:Red; font-weight:bold">11066</span><span style="color:Red; font-weight:bold">/</span>
+                    &nbsp;<span id="lstClassificacoes_lblClassificacao_1" class="tituloLinha">Divisão de comércio e grupo de atividade</span><span id="lstClassificacoes_lblQuantidadeCategorias_1" class="tituloLinha">(23):</span>                   
+                    
+                            <table id="tabPrincipal" cellpadding="2">
+                                
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_0" style="color:Red">90071</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_0">1.Total</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_1" style="color:Red">106644</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_1">2.Comércio de veículos, peças e motocicletas</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_2" style="color:Red">90077</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_2">3.Comércio por atacado</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_3" style="color:Red">7135</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_3">3.1Representantes e agentes do comércio (exceto de veículos e motocicletas)</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_4" style="color:Red">7136</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_4">3.2Comércio de matérias-primas agrícolas e animais vivos</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_5" style="color:Red">7137</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_5">3.3Produtos alimentícios, bebidas e fumo</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_6" style="color:Red">7138</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_6">3.4Comércio de equipamentos e artigos de uso pessoal e doméstico</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_7" style="color:Red">7139</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_7">3.5Comércio de produtos intermediários, resíduos e sucatas</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_8" style="color:Red">7140</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_8">3.5.1Combustíveis e lubrificantes</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_9" style="color:Red">7141</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_9">3.5.2Outros produtos intermediários</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_10" style="color:Red">7142</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_10">3.6Comércio de equipamentos e produtos de tecnologia de informação e comunicação</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_11" style="color:Red">7143</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_11">3.7Comércio de máquinas, aparelhos e equipamentos (exceto de tecnologia de informação e comunicação)</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_12" style="color:Red">7144</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_12">3.8Comércio não-especializado</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_13" style="color:Red">90084</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_13">4.Comércio varejista</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_14" style="color:Red">90085</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_14">4.1Comércio não-especializado</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_15" style="color:Red">106648</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_15">4.1.1Hiper/Supermercado</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_16" style="color:Red">106649</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_16">4.1.2Outros tipos de comércio não-especializado</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_17" style="color:Red">90086</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_17">4.2Produtos alimentícios, bebidas e fumo</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_18" style="color:Red">90087</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_18">4.3Tecidos, artigos de armarinho, vestuário e calçados</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_19" style="color:Red">106650</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_19">4.4Combustíveis e lubrificantes</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_20" style="color:Red">7145</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_20">4.5Equipamentos de informática e comunicação</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_21" style="color:Red">7146</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_21">4.6Comércio de outros produtos em lojas especializadas</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <span id="lstClassificacoes_lstCategorias_1_lblIdCategoria_22" style="color:Red">7147</span>&nbsp;&nbsp;<span id="lstClassificacoes_lstCategorias_1_lblNomeCategoria_22">4.7Comércio de artigos usados</span> 
+                                                                           
+                                    
+                                </td>
+                            </tr>
+                        
+                            </table>
+                        
+                    <br />
+                    
+                    
+                </td>
+            </tr>
+        
+            </table>
+        
+    </p>                               
+    
+    <p>                          
+    <span id="lblNivelterritorial" class="tituloLinha">Nível Territorial:</span>
+    
+            <table id="tabPrincipal" cellspacing="2">
+                
+            <tr>
+                <td>
+                    <span style="color:Red; font-weight:bold">/N</span><span id="lstNiveisTerritoriais_lblIdNivelterritorial_0" style="color:Red; font-weight:bold">1</span><span style="color:Red; font-weight:bold">/</span>
+                    <span id="lstNiveisTerritoriais_lblNomeNivelterritorial_0">Brasil</span><span id="lstNiveisTerritoriais_lblQuantidadeUnidadesTerritoriais_0">(1)</span>
+                    &nbsp;&nbsp;<a id="lstNiveisTerritoriais_hlkListaUnidadesTerritoriais_0" href="javascript: abreJanelaListaUnidadesTerritoriais(1407,1,&#39;P&#39;)">Listar unidades territoriais</a>
+                </td>
+            </tr>
+        
+            </table>
+        
+    </p>
+    
+    <p>
+    <br /><span id="lblDescricao" class="tituloLinha">Nota:<br /><br /></span>
+    <span id="lblTextoDescricao">1 - Vari&aacute;vel <b>Margem de comercializa&ccedil;&atilde;o em empresas comerciais: </b><b>Receita l&iacute;quida de revenda</b> menos o <b>Custo de mercadoria vendida</b>. Refere-se ao resultado obtido pelo esfor&ccedil;o de venda de mercadoria deduzidos dos custos de aquisi&ccedil;&atilde;o das mercadorias pelas empresas.</span>
+    </p>
+    
+    <p> 
+    <br /><span class="tituloLinha">Fonte:</span>&nbsp;
+    <span id="lblFonte">IBGE - Pesquisa Anual de Comércio</span>    
+    </p>
+    
+</div>
+</form>                                       
+</body>
+</html>
