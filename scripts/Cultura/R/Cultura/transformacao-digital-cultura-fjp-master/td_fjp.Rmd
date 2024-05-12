@@ -1,0 +1,84 @@
+---
+title: "Transformação Digital Cultura FJP"
+author: "Matheus Ferreira"
+date: "13/12/2021"
+output: word_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls())
+gc()
+```
+
+Pacotes (Packages)
+
+```{r}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(rio, tidyverse, dplyr, here, janitor, stargazer, googledrive)
+```
+
+```{r}
+# drive_auth()
+# drive_find(n_max = 10)
+# path <- drive_download("patrimôniocultural_2020_Max.xlsx", overwrite = T )
+# df <- rio::import("patrimôniocultural_2020_Max.xlsx")
+```
+
+```{r}
+# df %>% dplyr::glimpse()
+```
+
+# Importando banco 1
+
+patrimonio_cultural_2020_max
+```{r}
+path1 <- here::here("dados_alterados", "patrimonio_cultural_2020_max.xlsx")
+df1 <-rio::import(path1)
+df1 <- as_tibble(df1)
+df1 <- df1 %>% janitor::clean_names() %>% select(c(1,16))
+df1$ano <- 2020
+glimpse(df1)
+df1 <- df1 %>% mutate(chave = paste0(ano, ibge))
+```
+
+
+# Importando banco 2
+
+IMRS Cultura 2000 - 2020
+
+```{r}
+# drive_auth()
+# drive_find(n_max = 10)
+# path2 <- drive_download("IMRS Cultura 2000 - 2020.xlsx", overwrite = T)
+path2 <- here::here("dados_originais", "IMRS Cultura 2000 - 2020.xlsx")
+df2 <-rio::import(path2)
+```
+
+```{r}
+df2 %>% dplyr::glimpse()
+df2 <- df2 %>% janitor::clean_names()
+df2 <- df2 %>% mutate(chave = as.numeric(chave))
+summary(df2$chave)
+df2 <- df2 %>% mutate(ibge = substring(chave, 5)) %>% mutate(ibge = as.numeric(ibge))
+df2 %>% glimpse()
+```
+
+
+# Join data
+
+```{r}
+new_df <- merge(df2, df1[-c(1, 3)], by = c("chave"), all = T) # usar a variável chave.x
+glimpse(new_df)
+summary(new_df$total)
+new_df <- new_df %>% mutate()
+```
+
+```{r}
+table(new_df$ibge %in% new_df$ibge2) # perceba que 17913 casos falsos é a mesma quantidade de linhas do banco "df2". Logo, a variável ibge2 teve sucesso em imputar os códigos dos municípios para todos os municípios.
+# rio::export(new_df, "dados_td.xlsx")
+```
+
+

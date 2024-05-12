@@ -1,0 +1,36 @@
+C_MUSEU - para 89 municípios, há uma uma diferença entre os dados apresentados na munic (MCUL3902) e o valor do indicador 
+C_TEATRO - para 126 municípios, há uma diferença entre os dados apresentados na munic (MCUL3903) e o valor do indicador
+C_CINEMA - para 56 municípios, há uma diferença entre os dados apresentados na munic (MCUL3909) e o valor do indicador
+C_BIBLIOTECA - para 89 municípios, há uma diferença entre os dados apresentados na munic (MCUL3901) e o valor do indicador
+C_CENTROC - para 191 municípios, há uma diferença entre os dados apresentados na munic (MCUL3904) e o valor do indicador
+C_EQUIP - para 144 municípios, há uma diferença entre os dados apresentados na munic (MCUL3901) e o valor do indicador
+
+C_TOMBEF - para 252 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Notei inconsistências entre os dados do iepha e a planilha de cálculo do indicador no excel.
+C_TOMBMUN - para 555 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Alguns estão vazios no iepha e com zero no indicador. Também há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+C_REGISTRO - para 664 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Também há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+C_FUNDO - para 699 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+C_PCL - para 805 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+C_APRESC - para 672 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+C_GPRESC - para 748 municípios, há uma diferença entre os dados apresentados no iepha e o valor do indicador. Há diferença entre os dados do iepha e a planilha (entre a fórmula e o valor)
+
+C_AREABIB - para 747 municípios há diferença. Na memória de cálculo está correto, porém na planilha do IMRS está o valor errado
+C_ACERVOBIB - a faixa 1.001 - 3.001 está escrita como "de 1.001 - 3.001", diferente das demais. Após correção, apenas 3 municípios ficaram diferentes: campo belo, ouro preto e poços de caldas
+C_WEBBIB - para 201 municípios há diferença. Na memória de cálculo está correto, porém na planilha do IMRS está o valor errado
+C_COMPBIB - para 10 municípios há diferença. O município de poté, por exemplo, tem duas bibliotecas. Em uma delas é Não e a outra está vazia. Qual considerar? E em relação ao valor Branco (município tiros)
+C_LEITMESBIB - para 4 municípios há diferença. Campo belo, poços de caldas, tiros está correto na memória porém errado na planilha final. Pitangui está em branco enquanto o valor indicado deveria ser zero.
+C_EMPMESBIB - para 2 municípios há diferença. Campo belo,  está correto na memória porém errado na planilha final. Capitão andrade está em branco enquanto o valor indicado deveria ser zero.
+
+C_ICMSPATCULT - Diferença no ponto separador de milhar e casas decimais.
+
+
+
+C_LEGPAT - ok
+C_ARQPUB - ok
+C_ORGAOC - ok
+C_MEIOC - ok
+C_BANDA - ok
+C_GARTISTICO - ok
+C_ATIVCULT - ok
+C_INSTCONS - ok
+C_NFUNCBIB - ok
+C_NUMBIB - ok
