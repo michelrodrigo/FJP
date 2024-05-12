@@ -1,0 +1,14 @@
+name: IMRS_Demografia
+title: IMRS_Demografia
+username:
+account: michelalves
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6377452
+bundleId: 5947698
+url: https://michelalves.shinyapps.io/IMRS_Demografia/
+when: 1653576251.2916
+lastSyncTime: 1653576251.2916
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|dados_curso1.xlsx
