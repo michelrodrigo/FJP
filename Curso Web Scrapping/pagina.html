@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Cria duas colunas que são dispostas lado a lado */
+.column {
+  float: right;
+  width: 50%;
+  padding: 50px;
+  height: 500px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<h2>Glossário</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#e6e6ff;">
+    <h2>Relatividade Geral</h2>
+    <p>A relatividade geral, também conhecida como a teoria geral da relatividade, é a teoria geométrica da gravitação publicada por Albert Einstein em 1915 e é a descrição atual da gravitação na física moderna.</p>
+  </div>
+  <div class="column" style="background-color:#9999ff;">
+    <h2>Relatividade Especial</h2>
+    <p>Na física, a teoria da relatividade especial, ou relatividade especial, é uma teoria científica sobre a relação entre espaço e tempo.</p>
+  </div>
+</div>
+
+</body>
+</head>
+</html>
