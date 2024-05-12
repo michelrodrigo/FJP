@@ -1,0 +1,49 @@
+web scrapping (raspagem) é a coleta de dados disponíveis em um site e sava-los em um formato que é mais fácil de usarmos
+
+pode ser usado para o bem e para o mal
+
+já fazemos no dia a dia, cc + cv, porém é manual, queremos fazer de forma automática.
+
+web scrapping normalmente é dividio em duas partes, uma que busca na internet os sites que tem a informação que procuramos e a segunda é que retira os dados dos sites
+
+webscrapping é muito dependente do site, não tem receita
+
+alguns sites tem mecanismos para evitar, como captcha. não iremos trabalhar. Outro problema é o limite de número de acessos de um site.
+
+
+webscrapping tem duas abordagens:
+
+1) usada quando os dados estão no front end, estão vísiveis
+
+2) quando o site tem uma api que faz requisições a um servidor.
+
+
+Quando é preciso? quando os dados que queremos estão dentro html
+
+HTML
+
+o objetivo n]ão é ensinar como fazer o html, mas sim o de ter noção do conteúdo de uma página html
+
+explicar a estrutura das tags, abrir e fechar.
+
+copiar e salvar o código em html.
+
+
+
+cores: explicar como encontrar o código das cores
+
+importância de conhecer a hierarquia: às vezes é mais fácil achar um determinado elemento que não é o que queremos, mas podemos estabelecer uma relação com ele por parentesco
+
+explicar que quando acessamos uma página, além do html vários outros arquivos são baixados, que permitem o comportamento mais dinâmico
+
+
+ferramentas do desenvolvedor
+
+curiosidades
+- tipos de visualizações
+- como editar o conteúdo da página
+- visualização de senhas
+
+explicar de modo geral como tornar o webscrapping mais robusto
+
+

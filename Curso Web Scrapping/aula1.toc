@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Unidade 1}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}O que é Webscrapping?}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Quando é preciso realizar webscrapping?}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Estrutura de uma página web}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Classes e ID}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Tabelas}{4}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Listas}{4}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Blocos}{5}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Hierarquia}{6}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}XML}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Como visualizar o HTML de uma página}{7}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Algumas Dicas}{7}{subsubsection.1.5.1}%
+\contentsline {paragraph}{\numberline {1.5.1.1}Edição de uma página}{7}{paragraph.1.5.1.1}%
+\contentsline {paragraph}{\numberline {1.5.1.2}Visualização de senhas}{7}{paragraph.1.5.1.2}%
+\contentsline {subsection}{\numberline {1.6}Bibliotecas no R para webscrapping}{7}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Referências}{7}{subsection.1.7}%

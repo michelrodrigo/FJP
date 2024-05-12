@@ -1,0 +1,28 @@
+copiar o primeiro código no rstudio
+
+
+install.package("rvest")
+
+entrar na página e começar a explicar o título.
+
+pagina |> html_element("h3")
+pagina |> html_elements("h3")
+
+pagina |> html_elements("h3") |> html_text()
+pagina |> html_elements("h3") |> html_text2()
+
+procurar pelo número correspondente à classificação
+
+pagina |> html_elements("span") |> html_text2()
+
+apresentar as ferramentas para xpath
+
+explicar os fundamentos do xpath
+
+formas de pesquisar, por posição, por classe
+
+como encontrar a duração de um filme específico (contains())
+
+atributos
+
+juntar as listas 
