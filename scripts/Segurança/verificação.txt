@@ -1,0 +1,11 @@
+p_CV 		OK
+p_cvpa	OK
+p_cvpe	ok
+p_hom_tx	ok
+p_homi	ok
+p_ten_homi	ok
+p_roubo 	ok
+p_estupro 	ok
+
+colocar zeros
+P_suicidio_sim 	diferente
